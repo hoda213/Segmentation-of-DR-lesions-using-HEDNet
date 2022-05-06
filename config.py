@@ -1,0 +1,17 @@
+
+LESION_NAME = 'IRMA'
+IMAGE_DIR = '/data/IRMA/'
+CHECKPOINT_DIR = '/results/models_' 
+NET_NAME = 'hednet'
+IMAGE_SIZE = 256
+PREPROCESS = '5'
+SEED = '761'
+
+#Modify the parameters for training.
+EPOCHES = 300
+TRAIN_BATCH_SIZE = 4
+G_LEARNING_RATE = 0.001
+LESION_DICE_WEIGHT = 0.
+ROTATION_ANGEL = 20
+CROSSENTROPY_WEIGHTS = [0.1, 1.]
+RESUME_MODEL = None
